@@ -52,6 +52,9 @@ Finally, some metrics (accuracy, F1-score, and confusion matrix) are calculated 
 The results suggest that the Gaussian NB classifier is accurate 78% and has an F1 score of 72%. The confusion matrix can give a clearer picture of the predicted categories achieved by the Gaussian NB classifier. For instance, the number of TruePositives (TP), TrueNegatives (TN), FalsePositives (FP), and FalseNegatives (FN) can be extracted from the matrix as shown in Figure 4 in Jupyter Notebook.
 From 64 compounds in the test dataset, 49 are predicted as TP, 12 as TN, 2 as FP, and 1 as FN.
 
+![image](https://github.com/user-attachments/assets/a1ea216f-8218-4d6a-9070-0885bb15b63f)
+
+
 # **Conclusions and Perspectives**
 
 In this term project, we could use the power of Python scripting to implement statistical and supervised machine learning models on a chosen dataset. 
