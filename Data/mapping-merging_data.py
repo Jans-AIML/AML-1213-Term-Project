@@ -14,7 +14,7 @@ merged = data2.merge(data1[['Ligand', 'Exp. dG', 'Pred. dG']], left_on='ID', rig
 merged = merged.drop(columns=['Ligand'])
 
 # Save result
-merged.to_csv('updated_data2.csv', index=False)
+merged.to_csv('../FEP-data.csv', index=False)
 
 
 
