@@ -37,7 +37,7 @@ This roughly means that "Pred. dG" values calculated computationally can explain
 
 The results for variance (Exp. dG and Pred. dG) and covariance (Exp. dG-Pred. dG) indicate that data points in "Exp. dG" are less spread, **1.78**, than data points in the "Pred. dG" variable, which shows a variance of **2.60**.  The plots reported in Jupiter notebook allow us to observe this spreading of data points clearly when the Mean is taken as a reference point in the plot (see Figures 2 and 3 in Jupiter notebook). Finally, the covariance measures the relationship between X and Z. It denotes the mean for each variable by X and Z. As with the correlation coefficient, positive values indicate a positive relationship and negative values indicate a negative relationship. In this study case, the covariance gave a positive value of 1.76, suggesting that the relationship among the analyzed variables (Exp. dG and Pred. dG) is positive or, in other words, that both variables change in the same direction with a positive slope as indicated in the regression plot.
 
-# **Supervised machine learning model: Gaussian Naive-Bayes classifier**
+# **Sprint3: Supervised machine learning model: Gaussian Naive-Bayes classifier**
 
 In the third sprint, the task assigned was to build a supervised machine-learning model on the dataset selected. The chosen model was the Gaussian Naive-Bayes (NB) classifier that helped us to train and test our dataset to predict active and inactive compounds using the physicochemical features (in the X-axis) and the "Exp. dG" as the target feature (in the Y-axis). Some additional preparation of the dataset was necessary before implementing the NB classifier:
 
